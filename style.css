@@ -22,7 +22,7 @@ header{
 
 }
 .container-sm {
-    max-width: 1200px;
+    max-width: 990px;
     margin: 0 auto;
 
 
@@ -34,6 +34,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
+    justify-content: center;
 
 }
 
@@ -55,9 +56,10 @@ header{
     text-align: center;
 }
 .col-100{
-    width: 70%;
+    width:80% ;
     background-color: pink;
     height: 250px;
+    padding: 5px;
     
 }
 .bg-blue
