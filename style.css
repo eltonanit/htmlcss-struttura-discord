@@ -57,8 +57,9 @@ li {
 .col-25 {
     width: calc(100% / 4);
 }
+
 .col-16 {
-    width: calc(100% / 6 );
+    width: calc(100% / 6);
     background-color: rgb(72, 133, 218);
     height: 350px;
     padding: 5px;
@@ -66,13 +67,14 @@ li {
     border-color: white;
 
 }
+
 .col-32 {
     width: calc(100% / 3);
     background-color: rgb(218, 72, 203);
     height: 350px;
     padding: 5px;
     border-style: dashed;
-     
+
 
 }
 
@@ -126,7 +128,7 @@ li {
 .bg-black {
     background-color: black;
     padding: 10px;
-    margin-bottom: 100px;
+
 }
 
 .col-100-green {
@@ -145,4 +147,43 @@ li {
 
     justify-content: center;
 
+}
+
+.bg-black-line {
+    margin-top: 1px;
+    border-top: white;
+    background-color: black;
+
+}
+
+.last-div {
+    margin-top: 20px;
+    width: 100%;
+    background-color: lightskyblue;
+    height: 70px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+    
+
+
+}
+ 
+.row-last {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+ 
+
+}
+h4 {
+    width: 80px;
+    height: 40px;
+    background-color: pink;
+    border-style: dashed;
+    text-align: center;
+    padding: 6px ;
+    
+     
 }
