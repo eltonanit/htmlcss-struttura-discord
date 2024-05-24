@@ -56,9 +56,25 @@ li {
     
 
 }
+.col-35 {
+    width: 35%;
+    background-color: pink;
+    height: 400px;
+    padding: 5px;
+    border-style: dashed;
+
+}
 .col-50 {
     width: calc(100% / 2);
     text-align: center;
+}
+.col-65 {
+    width: 65%;
+    background-color: lightseagreen;
+    height: 400px;
+    padding: 5px;
+    border-style: dashed;
+
 }
 .col-100{
     width:80% ;
@@ -80,5 +96,13 @@ padding: 10px 0px;}
 }.bg-black {
     background-color: black;
     padding: 10px 0px;
+}
+.col-100-green{
+    width: 100%;
+        background-color: green;
+        height: 550px;
+        padding: 5px;
+        border-style: dashed;
+
 }
 
